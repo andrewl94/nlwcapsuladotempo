@@ -44,6 +44,7 @@ export default function Home() {
           </div>
         </div>
 
+        {/* Footer */}
         <div className=" text-sm leading-relaxed text-gray-200">
           Made by{' '}
           <a
