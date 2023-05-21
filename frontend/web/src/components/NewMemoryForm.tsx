@@ -5,7 +5,6 @@ import { MediaPicker } from './MediaPicker'
 import { api } from '@/lib/api'
 import Cookie from 'js-cookie'
 import { useRouter } from 'next/navigation'
-import router from 'next/router'
 export function NewMemoryForm() {
   const router = useRouter()
   async function handleCreateMemory(event: FormEvent<HTMLFormElement>) {
