@@ -1,6 +1,4 @@
 'use client'
-
-import Image from 'next/image'
 import { ChangeEvent, useState } from 'react'
 
 export function MediaPicker() {
@@ -19,6 +17,7 @@ export function MediaPicker() {
         onChange={onMediaSelected}
         type="file"
         id="media"
+        name="coverUrl"
         accept="image/*"
         className="invisible h-0 w-0"
       />
