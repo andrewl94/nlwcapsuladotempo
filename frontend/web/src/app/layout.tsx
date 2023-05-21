@@ -1,4 +1,3 @@
-import { EmptyMemories } from '@/components/EmptyMemories'
 import { Hero } from '@/components/Hero'
 import { Profile } from '@/components/Profile'
 import { Signup } from '@/components/Signup'
